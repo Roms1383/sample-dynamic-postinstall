@@ -1,0 +1,10 @@
+{
+  "name": "importer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Romain KELIFA <romain.kelifa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "imported": "file:imported-1.0.0.tgz"
+  }
+}

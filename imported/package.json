@@ -1,0 +1,16 @@
+{
+  "name": "imported",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Romain KELIFA <romain.kelifa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "execa": "^4.0.0",
+    "typescript": "^3.8.3"
+  }
+}
